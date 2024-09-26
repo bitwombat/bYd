@@ -1,5 +1,5 @@
 FROM golang:1.22 as build
-ARG VERISON 
+ARG VERSION 
 WORKDIR /go/src/apiserver
 
 COPY go.mod go.sum ./
